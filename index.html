@@ -62,7 +62,8 @@ nav a{font-size:.76rem;letter-spacing:.16em;text-transform:uppercase;opacity:.88
 .hero .in>:nth-child(2){animation-delay:.12s}.hero .in>:nth-child(3){animation-delay:.24s}.hero .in>:nth-child(4){animation-delay:.36s}.hero .in>:nth-child(5){animation-delay:.48s}.hero .in>:nth-child(6){animation-delay:.6s}.hero .in>:nth-child(7){animation-delay:.72s}
 .org{font-size:.78rem;letter-spacing:.28em;text-transform:uppercase;color:var(--mist)}
 .org b{display:block;color:var(--gold);font-weight:400;margin-top:6px}
-.hero h1{font-size:clamp(4rem,15vw,11rem);font-style:italic;letter-spacing:.01em;margin:22px 0 8px;background:linear-gradient(180deg,#fff 25%,var(--gold) 135%);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 40px rgba(227,194,122,.4))}
+.kicker{margin-top:24px;font:400 clamp(1.1rem,3vw,1.9rem)/1 var(--sans);letter-spacing:.45em;text-indent:.45em;text-transform:uppercase;color:var(--ivory)}
+.hero h1{font-size:clamp(3.4rem,12.5vw,9.8rem);font-style:italic;letter-spacing:.01em;line-height:1;margin:14px 0 10px;padding:.04em .1em;background:linear-gradient(180deg,#fff 25%,var(--gold) 135%);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 40px rgba(227,194,122,.4))}
 .theme{font-family:var(--serif);font-size:clamp(1.5rem,3.4vw,2.4rem)}.theme em{color:var(--gold)}
 .ref{letter-spacing:.3em;text-transform:uppercase;font-size:.74rem;color:var(--gold);margin:8px 0 28px}
 .when{font-size:1.05rem;margin-bottom:22px}
@@ -116,7 +117,7 @@ nav a{font-size:.76rem;letter-spacing:.16em;text-transform:uppercase;opacity:.88
 .info h3{font-size:1.6rem}.info span{font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
 .bio{max-height:0;opacity:0;overflow:hidden;font-size:.9rem;line-height:1.5;margin:0;transition:max-height .45s,opacity .45s,margin .45s}
 .min:hover .info,.min:focus .info,.min.open .info{padding-top:150px;background:linear-gradient(transparent,rgba(5,15,44,.97) 30%)}
-.min:hover .bio,.min:focus .bio,.min.open .bio{max-height:130px;opacity:1;margin-top:10px}
+.min:hover .bio,.min:focus .bio,.min.open .bio{max-height:170px;opacity:1;margin-top:10px}
 .min::after{content:"";position:absolute;inset:0;border:1px solid transparent;border-radius:6px;pointer-events:none;transition:border-color .3s}
 .min:hover::after{border-color:var(--gold)}
 .more{margin-top:34px;font:italic 500 1.5rem var(--serif);color:var(--gold)}
@@ -195,8 +196,8 @@ footer ul{list-style:none;padding:0;margin:0;display:grid;gap:8px}footer a:hover
   <div class="aurora" aria-hidden="true"></div><div class="stars" aria-hidden="true"></div>
   <div class="in wrap">
     <div class="org">RCCG Halleluyah Sanctuary · Zonal Headquarters<b>Youth &amp; Young Adults</b></div>
-    <h1>Boot Camp 26</h1>
-    <div class="theme">Theme: <em>Divine Mandate</em></div>
+    <div class="kicker">Boot Camp 26</div>
+    <h1>Divine Mandate</h1>
     <div class="ref">Jeremiah 1:5</div>
     <div class="when">13th – 14th November 2026 · Ibadan</div>
     <div class="cd" id="cd" role="timer" aria-label="Countdown to camp opening">
@@ -261,10 +262,10 @@ footer ul{list-style:none;padding:0;margin:0;display:grid;gap:8px}footer a:hover
     <div class="mg">
       <!-- Hover (or tap on phones) a photo to see the profile. To add a minister: copy one block, change the file name, name, title and bio. -->
       <div class="min" tabindex="0"><div class="slot" data-label="PHOTO"><img src="images/pastor-moses-olutide.jpg" alt="Pastor Moses Olutide" onerror="this.removeAttribute('src')"></div><div class="info"><h3>Pastor Moses Olutide</h3><span>Zonal Pastor · Host</span><p class="bio">Add a short profile for Pastor Moses Olutide here.</p></div></div>
-      <div class="min" tabindex="0"><div class="slot" data-label="PHOTO"><img src="images/pastor-mrs-olutide.jpg" alt="Pastor Mrs Olutide" onerror="this.removeAttribute('src')"></div><div class="info"><h3>Pastor Mrs Olutide</h3><span>Zonal Mummy</span><p class="bio">Add a short profile for Pastor Mrs Olutide here.</p></div></div>
+      <div class="min" tabindex="0"><div class="slot" data-label="PHOTO"><img src="images/pastor-mrs-olutide.jpg" alt="Pastor Mrs Abiodun Bukola Olutide" onerror="this.removeAttribute('src')"></div><div class="info"><h3>Pastor Mrs Abiodun Bukola Olutide</h3><span>Zonal Mummy</span><p class="bio">Teacher of the Word, counsellor and prayer champion with 26 years in ministry. Director of School at God's Blessing Comprehensive College.</p></div></div>
       <div class="min" tabindex="0"><div class="slot" data-label="PHOTO"><img src="images/pastor-ajibola-salawu.jpg" alt="Pastor Ajibola Salawu" onerror="this.removeAttribute('src')"></div><div class="info"><h3>Pastor Ajibola Salawu</h3><span>Chairman</span><p class="bio">Add a short profile for Pastor Ajibola Salawu here.</p></div></div>
       <div class="min" tabindex="0"><div class="slot" data-label="PHOTO"><img src="images/pastor-mrs-iyanuoluwa-salawu.jpg" alt="Pastor Mrs Iyanuoluwa Salawu" onerror="this.removeAttribute('src')"></div><div class="info"><h3>Pastor Mrs Iyanuoluwa Salawu</h3><span>Parish Mummy</span><p class="bio">Add a short profile for Pastor Mrs Iyanuoluwa Salawu here.</p></div></div>
-      <div class="min" tabindex="0"><div class="slot" data-label="PHOTO"><img src="images/pastor-opeyemi-adejuwon.jpg" alt="Pastor Opeyemi Adejuwon" onerror="this.removeAttribute('src')"></div><div class="info"><h3>Pastor Opeyemi Adejuwon</h3><span>PYP (Oyo 18)</span><p class="bio">Add a short profile for Pastor Opeyemi Adejuwon here.</p></div></div>
+      <div class="min" tabindex="0"><div class="slot" data-label="PHOTO"><img src="images/pastor-opeyemi-adejuwon.jpg" alt="Deacon Opeyemi Adejuwon" onerror="this.removeAttribute('src')"></div><div class="info"><h3>Deacon Opeyemi Adejuwon</h3><span>Provincial Youth Pastor · Oyo 18</span><p class="bio">Over 20 years in youth ministry, passionate about youth development. Ph.D in Rural Sociology; 2025 Man of the Year, Peculiar Zone YAYA.</p></div></div>
       <div class="min" tabindex="0"><div class="slot" data-label="PHOTO"><img src="images/sister-happiness.jpg" alt="Deaconess Olaloye Happiness" onerror="this.removeAttribute('src')"></div><div class="info"><h3>Deaconess Olaloye Happiness</h3><span>Song Minister</span><p class="bio">Add a short profile for Deaconess Olaloye Happiness here.</p></div></div>
       <div class="min" tabindex="0"><div class="slot" data-label="PHOTO"><img src="images/deacon-john-andrew.jpg" alt="Deacon John Andrew" onerror="this.removeAttribute('src')"></div><div class="info"><h3>Deacon John Andrew</h3><span>Song Minister</span><p class="bio">Add a short profile for Deacon John Andrew here.</p></div></div>
     </div>
